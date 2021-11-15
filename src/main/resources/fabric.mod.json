@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "xp_bottler",
+  "version": "${version}",
+  "name": "XP Bottler",
+  "description": "A Simple mod that allows you to store your xp in bottles",
+  "authors": [
+    "Drew Chase"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.drewchaseproject.mc.fabric.xp_bottler.XPBottler::EntryPoint"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
